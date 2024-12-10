@@ -135,6 +135,11 @@ p {
   justify-content: center;
 }
 
+.social-list-item {
+  width: 40px;
+  height: 40px;
+}
+
 .socials-link {
   display: flex;
   justify-content: center;
@@ -143,6 +148,11 @@ p {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--pressedStateCol);
 }
 
 .social-icon {
