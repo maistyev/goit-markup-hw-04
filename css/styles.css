@@ -450,7 +450,11 @@ section {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.logo-text-wrapper {
+  margin-right: 120px;
 }
 
 .footer-text {
@@ -463,7 +467,7 @@ section {
   margin-bottom: 16px;
 }
 
-.footer-socials-h {
+.footer-socials-text {
   color: var(--WHITE, #fff);
 
   /* Body Medium */
