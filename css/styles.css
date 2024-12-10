@@ -486,7 +486,8 @@ section {
   gap: 16px;
 }
 
-.footer-socials-icons a:hover {
+.footer-socials-icons a:hover,
+.footer-socials-icons a:focus {
   background-color: #31d0aa;
 }
 
